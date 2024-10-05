@@ -1,18 +1,49 @@
-body{
-    background-color:#00FFFF;
+h1, h2, span{
+    color: red;
 }
-button{
-    width: 55px;
+div p {
+    font-weight: 600;
 }
-h1{
-    color:#00000
+ul lispan {
+    font-weight: 600;
 }
-p{
-    font-size: 35pt;
+ol li + li {
+    list-style: none;
 }
-table{
-    border-collapse: collapse;
+h3 ~ h4 {
+    color: aqua;
 }
-td, th{
-    border: 1px solid blue ;
+
+#block1 {
+    background-color: lime; /* зелений колір */
+    width: 150px;
+    height: 150px;
 }
+
+#block2 {
+    background-color: cyan; /* основний колір */
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+/* 2. Стиль для блоків з класом block_border */
+.block_border {
+    border: 4px solid blue;
+    background-color: cyan; /* основний колір */
+    width: 150px;
+    height: 150px;
+}
+/*
+#block1 {
+    background-color: lime;
+}
+
+#block2 {
+    border-radius: 50px;
+}
+
+.block_border {
+    border: 4px solid blue;
+} 
+*/
